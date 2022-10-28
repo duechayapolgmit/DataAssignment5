@@ -1,3 +1,3 @@
 # DataAssignment5
-##What is Express?
-Express ia a Node.js framework that provides web app features as well as API.
+## What is Express?
+Express is a web framework for Node.js that provides API functionalities (creating API, etc.) and handle HTTP methods.
