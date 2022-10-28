@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <!-- Form using GET Method - can be cached-->
+        <h1>GET Method</h1>
+        <form action="/name" method="get">
+            <label for="firstName">Enter first name:</label>
+            <input
+                id="firstName"
+                type="text"
+                name="firstName"
+            />
+            <label for="lastName">Enter last name:</label>
+            <input
+                id="lastName"
+                type="text"
+                name="lastName"
+            />
+            <input type="submit" value="Submit"/>
+        </form>
+        <!-- Form using POST Method - can't be cached -->
+        <h1>POST Method</h1>
+        <form action="/name" method="post">
+            <label for="firstName">Enter first name:</label>
+            <input
+                id="firstName"
+                type="text"
+                name="firstName"
+            />
+            <label for="lastName">Enter last name:</label>
+            <input
+                id="lastName"
+                type="text"
+                name="lastName"
+            />
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
