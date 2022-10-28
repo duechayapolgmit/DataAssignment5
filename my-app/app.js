@@ -4,10 +4,10 @@ const app = express() // Express app
 const port = 3000 // Port to run in
 
 // parse application/x-www-form-urlencoded
-var urlencodedParser = app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
-var jsonParser = app.use(bodyParser.json())
+app.use(bodyParser.json())
 
 // JSON data
 const booksJSON = {
